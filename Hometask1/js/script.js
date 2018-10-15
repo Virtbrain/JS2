@@ -4,8 +4,8 @@ function CoffeeMachine(power, maxWaterAmount, maxCoffieAmount) {
     let coffeeGrain = 0;
     let waterHeatCapacity = 4200;
     let maxTemp = 90;
-    let coffeePortion = 10;
-    let waterPortion = 190;
+    let coffeePortion = 10; //сколько нужно зерна на 1 порцию кофе
+    let waterPortion = 190; //сколько нужно воды на 1 порцию кофе
     let timer;
 
     const getBoilTime = function(portion) {

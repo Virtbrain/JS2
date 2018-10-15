@@ -1,0 +1,39 @@
+.switch_panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.switch_panel li {
+    padding: 10px 15px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    margin-right: 1px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.switch_panel .active {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    border-bottom: 2px solid white;
+}
+
+.text {
+    display: none;
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    border-radius: 0 2px 2px 2px;
+    padding: 7px 15px;
+    margin: 0;
+}
+
+.text_active {
+    display: block;
+}
