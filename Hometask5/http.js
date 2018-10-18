@@ -1,5 +1,0 @@
-class Http {
-    constructor(baseURL){
-        
-    }
-}
