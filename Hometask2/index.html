@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <form id="messageForm">
+            <div class="form-group">
+                <label for="message">Введите имя</label>
+                <input type="text" class="form-control" id="name" placeholder="Введите имя" value="TestUser" required pattern="^[a-zA-Z]+$">
+                <label for="email">Введите email</label>
+                <input type="email" class="form-control" id="email" placeholder="Введите email" value="testmail@mail.ru" required>
+                <label for="message">Введите возраст</label>
+                <input type="text" class="form-control" id="age" placeholder="Введите возраст" value="23" required pattern="^[ 0-9]+$">
+            </div>
+            <button type="submit" class="btn btn-primary" id="sendbtn">Отправить</button>
+        </form>
+
+        <button type="button" class="btn btn-success mt-4" id="getlistbtn">Получить список пользователей</button>
+        <ul class="list-group mt-4">
+        </ul>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

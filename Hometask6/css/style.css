@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper li {
+    list-style: none;
+    display: none;
+}
+
+.wrapper img{
+    width: 200px;
+
+}
+.wrapper ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper li:first-child{
+    display: inline;
+}
+
+#left {
+    fill: gray;
+}
+
+#left:hover {
+    fill: lightskyblue;
+    cursor: pointer;
+}
+
+#right {
+    fill: gray; 
+}
+
+#right:hover {
+    fill: lightskyblue;
+    cursor: pointer;
+}

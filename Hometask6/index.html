@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+    <title>Hometask6</title>
+</head>
+<body>
+
+    <header>
+        <div class="wrapper">
+
+            <svg id="left" width="40px" height="73px" viewBox="0 0 40 73"> 
+                <path fillRule="evenodd" d="M 38.03 72.98C 38.03 72.98 0 36.5 0 36.5 0 36.5 38.03 0.02 38.03 0.02 38.03 0.02 40 2.02 40 2.02 40 2.02 4.07 36.5 4.07 36.5 4.07 36.5 40 70.98 40 70.98 40 70.98 38.03 72.98 38.03 72.98Z"/>
+            </svg>
+
+            <ul>
+                <li><img id="img_0" src="./img/1.jpg" alt="img"></li>
+                <li><img id="img_1" src="./img/2.jpg" alt="img"></li>
+                <li><img id="img_2" src="./img/3.jpg" alt="img"></li>
+                <li><img id="img_3" src="./img/4.jpg" alt="img"></li>
+                <li><img id="img_4" src="./img/5.jpg" alt="img"></li>
+            </ul>
+
+            <svg id="right" width="40px" height="73px" viewBox="0 0 40 73">
+                <path fillRule="evenodd" d="M 1.97 72.98C 1.97 72.98 40 36.5 40 36.5 40 36.5 1.97 0.02 1.97 0.02 1.97 0.02 0 2.02 0 2.02 0 2.02 35.93 36.5 35.93 36.5 35.93 36.5 0 70.98 0 70.98 0 70.98 1.97 72.98 1.97 72.98Z"/>
+            </svg>
+
+        </div>
+    </header>
+
+    <label for="formGroupExampleInput">Введите дату рождения:</label>
+    <input type="text" class="form-control"  id="datepicker" placeholder="Дата рождения">
+    <button type="button" id="submit">Отпарвить</button>
+    <script src="./js/script.js"></script>
+    <div id="dialog1" title="Ошибка ввода даты">
+        Дата введена некорректно. используйте формат: dd/mm/yyyy
+    </div>
+    <div id="dialog2" title="Дата принята">
+        Дата отправлена на сервер
+    </div>
+</body>
+</html>
